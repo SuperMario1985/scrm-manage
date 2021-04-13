@@ -1,0 +1,108 @@
+*{padding:0;margin:0}
+.wrap{
+    background:#fff;
+    display: flex;
+}
+.box_left{
+    width:64%;
+    height:100vh;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    background:#01B065
+}
+.img{
+    height:calc(100vh - 140px);
+    background:url('../images/loginBG_0219.png') no-repeat center bottom;
+    background-size:cover
+}
+.logo_div{
+    position: absolute;
+    bottom: 68px;
+    left:0;
+    right:0;
+    background:#01B065
+}
+.logo_title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.logo_des{
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.box_right{
+    width:36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box_right h2{
+    height: 28px;
+    width: 320px;
+    text-align: center;
+}
+.form_title{
+    width: 72px;
+    height: 26px;
+    font-size: 18px;
+    color: #01B065;
+    line-height: 26px;
+    border-bottom:2px solid #01B065;
+    margin-bottom: 32px;
+    margin-top: 67px;
+}
+.form-control{
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    border: 1px solid #DDDDDD;
+    padding-left:38px;
+    box-sizing: border-box;
+}
+.field-adminloginform-account{
+    margin-bottom: 24px;
+}
+.btn-primary{
+    width: 320px;
+    height: 44px;
+    background: #01B065;
+    border-radius: 24px;
+    margin-top: 32px;
+    border:none;
+    color:#fff;
+    font-size:16px
+}
+.div_account,.div_password{position: relative;}
+.div_account::before{
+    content:'';
+    position: absolute;
+    left: 14px;
+    top: 0;
+    z-index: 1;
+    width: 38px;
+    height: 44px;
+    background: url('../images/icon_user.png') center no-repeat;
+    background-size: 14px;
+}
+.div_password::before{
+    content:'';
+    position: absolute;
+    left: 14px;
+    top: 0;
+    z-index: 1;
+    width: 38px;
+    height: 44px;
+    background: url('../images/icon_password.png') center no-repeat;
+    background-size: 14px;
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+    color: #fff;
+    background-color: #20bd74;
+    border-color: #20bd74;
+}

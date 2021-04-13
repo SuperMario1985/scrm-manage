@@ -43,9 +43,16 @@ h5 {
 	height: 78px;
 	padding: 0;
 	background: #01B065;
-	padding-top: 26px;
+	padding-top: 15px;
 	/* border-bottom: 1px solid #293846 !important; */
 	/* border-right: 1px solid #293846 !important; */
+}
+.nav.metismenu li.header_top span,.nav.metismenu li.header_top a{
+	display: inline-block;
+}
+.nav.metismenu li.header_top span img{
+	width: 140px;
+    height: auto;
 }
 .navbar {
 	margin-bottom: 0;

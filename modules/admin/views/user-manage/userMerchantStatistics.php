@@ -31,7 +31,7 @@
             margin:20px;
     }
     .nav > li.active {
-            border-left: 4px solid #44B549 !important;
+            /* border-left: 4px solid #44B549 !important; */
     }
     .btn-primary {
         width : 80px;

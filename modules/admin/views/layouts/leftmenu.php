@@ -47,7 +47,7 @@
 
 					<?php foreach ($authority as $a){ ?>
 						<?php if ($a['title'] == '系统设置'){ ?>
-							<li <?= (in_array($route_control, ['index', 'custom-manage', 'system-manage', 'limit-word']))?'class="active"':'';?>>
+							<li <?= (in_array($route_control, ['index', 'custom-manage', 'system-manage', 'limit-word','service-provider','admin-config']))?'class="active"':'';?>>
 								<a href="#">
 									<i class="fa fa-cog"></i>
 									<span class="nav-label"><?= $a['title'];?></span>

@@ -99,7 +99,7 @@
 											<option value="3" <?= ($searchType == '3')?'selected':'';?> >公司名称</option>
 										</select>
 										<span class="middleLine"></span>
-										<input type="text" value="<?= $uname;?>" name="uname" class="input form-control" title="账号/手机号/联系人/公司名称" placeholder="请输入查询内容" id="usertoname" style="width: 60%; display: inline-block;">
+										<input type="text" value="<?= $uname;?>" name="uname" class="input form-control" title="账号/手机号/联系人/公司名称" placeholder="请输入查询内容" id="usertoname" style="width: 58%; display: inline-block;">
 									</div>
 
 									<div class="col-lg-2">
@@ -158,7 +158,7 @@
 											<option <?= ($time_type == 'endtime')?'selected':'';?> value="endtime">到期时间</option>
 										</select>
 										<span class="middleLine"></span>
-										<input style="width: 60%; display: inline-block;" class="input form-control" name="dates" value="<?=$dates?>" placeholder="时间">
+										<input style="width: 58%; display: inline-block;" class="input form-control" name="dates" value="<?=$dates?>" placeholder="时间">
 									</div>
 
 

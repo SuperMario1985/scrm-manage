@@ -66,7 +66,7 @@ h5 {
 	padding: 14px 20px 14px 25px;
 }
 .nav.navbar-right > li > a {
-	color: #999c9e;
+	color: #fff;
 }
 .nav > li.active > a {
 	color: #01B065;
@@ -666,8 +666,8 @@ fieldset[disabled] .btn-primary.active {
 	border-color: #1dc5a3;
 }
 .btn-success {
-	background-color: #1dc5a3;
-	border-color: #1dc5a3;
+	background-color: #01B065;
+	border-color: #01B065;
 	color: #FFFFFF;
 }
 .btn-success:hover,
@@ -675,8 +675,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-	background-color: #1dc5a3;
-	border-color: #1dc5a3;
+	background-color: #01B065;
+	border-color: #01B065;
 	color: #FFFFFF;
 }
 .btn-success:active,
